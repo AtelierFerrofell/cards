@@ -25,5 +25,11 @@ public partial class Card : Node
 		}
 	}
 
-	protected virtual void OnInfoChanged() { }
+	protected virtual void OnInfoChanged()
+	{
+	}
+
+	public virtual void Reveal()
+	{
+	}
 }
